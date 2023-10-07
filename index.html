@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Social Media Platform</h1>
+  </header>
+
+  <main>
+    <div class="action-column">
+      <h2>Actions</h2>
+      <button>Take Photo or Video</button>
+      <button>Post Photo</button>
+      <button>Reel</button>
+      <button>Like Video/Photo/Reel</button>
+    </div>
+
+    <div class="users-list">
+      <h2>Users</h2>
+      <ul>
+        <li>User 1</li>
+        <li>User 2</li>
+        <li>User 3</li>
+        <!-- Add more users dynamically -->
+      </ul>
+    </div>
+
+    <div class="communication">
+      <h2>Communication</h2>
+      <div class="chat-box">
+        <div class="message">
+          <strong>User 1:</strong> Hey, how are you?
+        </div>
+        <div class="message">
+          <strong>User 2:</strong> I'm good! How about you?
+        </div>
+        <!-- Add more messages dynamically -->
+      </div>
+      <input type="text" id="message-input" placeholder="Type a message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <div class="task-assignment">
+      <h2>Task Assignment</h2>
+      <input type="text" id="task-input" placeholder="Enter task...">
+      <button onclick="assignTask()">Assign Task</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

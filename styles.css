@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .users-list {
+    width: 30%;
+    background-color: #ea6e6e;
+    padding: 20px;
+    border: 1px solid #232222;
+  }
+  
+  .communication {
+    width: 50%;
+    background-color:#ea6e6e;
+    padding: 20px;
+    border: 1px solid #232222;
+  }
+  
+  .task-assignment {
+    width: 30%;
+    background-color: #ea6e6e;
+    padding: 20px;
+    border: 1px solid #232222;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  #message-input, #task-input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: purple; /* Change to your desired purple color */
+}
+
+/* Rest of your existing CSS styles */
+.action-column {
+    width: 20%;
+    background-color: #ea6e6e;
+    padding: 20px;
+    border: 1px solid #232222;
+}
+
+.action-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.action-column button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.action-column button:hover {
+    background-color: #45a049;
+}
